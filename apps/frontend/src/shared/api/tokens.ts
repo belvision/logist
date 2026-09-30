@@ -2,7 +2,7 @@
 
 type DecodedJwt = { exp?: number; [k: string]: any };
 
-const ACCESS_KEY = 'REDACTED_SECRET';
+const ACCESS_KEY = 'lg_token';
 const REFRESH_KEY = 'lg_refresh';
 
 export const getAccessToken = (): string | undefined => {
