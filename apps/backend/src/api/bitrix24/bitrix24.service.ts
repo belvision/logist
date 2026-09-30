@@ -22,7 +22,7 @@ export class Bitrix24Service {
   constructor() {
     this.baseUrl = process.env.BITRIX24_URL || 'https://integro.bitrix24.by/rest/1/REDACTED_SECRET/';
     console.log('🔍 [BITRIX24 SERVICE] Base URL:', this.baseUrl);
-    console.log('🔍 [BITRIX24 SERVICE] Webhook token:'REDACTED_SECRET'***configured***' : 'not configured');
+    console.log('🔍 [BITRIX24 SERVICE] Webhook token:', process.env.BITRIX24_WEBHOOK_TOKEN ? '***configured***' : 'not configured');
   }
 
   private async makeFormRequest(endpoint: string, formData: URLSearchParams): Promise<any> {

@@ -49,9 +49,9 @@ export default function RegistryPage() {
     const u = formData.username.trim();
     if (!u) e.username = 'Логин обязателен';
     else if (!/^[a-zA-Zа-яА-Я0-9]{3,}$/.test(u)) e.username = 'Логин: от 3 символов, буквы и цифры';
-    if (!formData.password) e.password = 'REDACTED_SECRET';
-    else if (formData.password.length < 6) e.password = 'REDACTED_SECRET';
-    if (formData.password !== formData.confirmPassword) e.confirmPassword = 'REDACTED_SECRET';
+    if (!formData.password) e.password = 'Пароль обязателен';
+    else if (formData.password.length < 6) e.password = 'Минимум 6 символов';
+    if (formData.password !== formData.confirmPassword) e.confirmPassword = 'Пароли не совпадают';
     setErrors(e);
     return Object.keys(e).length === 0;
   };

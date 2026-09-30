@@ -210,7 +210,7 @@ export default function SupportPage() {
       // Выберем первый доступный токен
       const token = tokenFromCookie || tokenFromLocalStorage || tokenFromAuthContext;
       
-      console.log('🔍 [FRONTEND] Selected token:'REDACTED_SECRET'Present' : 'Missing');
+      console.log('🔍 [FRONTEND] Selected token:', token ? 'Present' : 'Missing');
       console.log('🔍 [FRONTEND] Token type:', typeof token);
       console.log('🔍 [FRONTEND] Token value:', token);
       console.log('🔍 [FRONTEND] Token preview:', token && typeof token === 'string' ? token.substring(0, 20) + '...' : 'No token or not string');
