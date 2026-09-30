@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "title": "Międzynarodowa",
+    "subtitle": "Giełda transportowa",
+    "brand": "LogistGo.pro",
+    "description": "Pomaga przewoźnikom i nadawcom ładunków z Białorusi, Rosji, Kazachstanu, Polski i Litwy znaleźć się nawzajem i uzgodnić transport",
+    "register": "Zarejestruj się",
+    "database": "Baza przewoźników i nadawców ładunków",
+    "source": "z mediów społecznościowych i stron przetargowych"
+  },
+  "stats": {
+    "cargo": {
+      "title": "Baza ładunków",
+      "description": "czekają na odpowiedzi przewoźników"
+    },
+    "transport": {
+      "title": "Baza pojazdów",
+      "description": "gotowe do transportu już teraz"
+    },
+    "users": {
+      "title": "Tysiące uczestników",
+      "description": "codziennie pracują na LogistGo.pro"
+    }
+  },
+  "features": {
+    "title": "Dlaczego wybierają LogistGo.pro",
+    "subtitle": "Niezawodna platforma do transportu ładunków",
+    "safe": {
+      "title": "Bezpiecznie",
+      "items": [
+        "Paszport uczestnika LogistGo.pro odzwierciedla jego reputację i pokazuje, czy można mu zaufać",
+        "Ranking uczestników LogistGo.pro pomaga znaleźć najlepszych w Twoim kraju lub regionie",
+        "Weryfikacja organizacji przez urząd skarbowy"
+      ]
+    },
+    "convenient": {
+      "title": "Wygodnie",
+      "items": [
+        "Bot Telegram z podstawowymi funkcjami",
+        "W projekcie możliwość tworzenia dokumentów elektronicznych i wymiany nimi",
+        "Nie trzeba wprowadzać danych ręcznie — wystarczy wprowadzić je raz"
+      ]
+    },
+    "free": {
+      "title": "Za darmo",
+      "items": [
+        "Rejestracja",
+        "Dodawanie ładunków i transportu",
+        "Wyszukiwanie ładunków i transportu",
+        "Szybkie wsparcie techniczne",
+        "Grupa na Telegramie dla uczestników"
+      ]
+    }
+  },
+  "countries": {
+    "title": "Działamy w 9 krajach",
+    "description": "LogistGo.pro łączy przewoźników i właścicieli ładunków z Białorusi, Rosji, Kazachstanu, Polski, Litwy, Uzbekistanu, Tadżykistanu, Turcji i Gruzji",
+    "selectCountry": "Wybierz kraj, aby dowiedzieć się więcej o pracy LogistGo.pro w Twoim regionie",
+    "joinButton": "Dołącz do międzynarodowej giełdy"
+  },
+  "howToStart": {
+    "title": "Jak zacząć pracę na LogistGo.pro",
+    "steps": {
+      "title": "7 kroków do udanego rozpoczęcia pracy na LogistGo.pro",
+      "description": "Jak przewoźnik może zacząć pracę na LogistGo.pro, aby otrzymywać ładunki.",
+      "button": "WIĘCEJ INFORMACJI"
+    },
+    "transport": {
+      "title": "Jak dodać transport",
+      "description": "Jak dodać swój pojazd, aby otrzymywać oferty od właścicieli ładunków.",
+      "button": "WIĘCEJ INFORMACJI"
+    },
+    "licenses": {
+      "title": "Po co potrzebne są licencje",
+      "description": "Co na LogistGo.pro jest dostępne za darmo, a do czego trzeba kupić licencję.",
+      "button": "WIĘCEJ INFORMACJI"
+    }
+  },
+  "team": {
+    "title": "Nasz zespół",
+    "subtitle": "Profesjonalni programiści i automatycy handlu",
+    "moreButton": "Więcej"
+  },
+  "cta": {
+    "title": "Znajdź niezawodnych partnerów na LogistGo.pro",
+    "description": "Dołącz do tysięcy uczestników, którzy już pracują na naszej platformie",
+    "cargoOwners": "Dla właścicieli ładunków",
+    "carriers": "Dla przewoźników"
+  },
+  "footer": {
+    "representative": "Przedstawiciel LogistGo.pro na Białorusi Siergiej Gajew",
+    "privacyPolicy": "Polityka prywatności",
+    "offerAgreement": "Umowa ofertowa",
+    "copyright": "© 2024 LogistGo.pro. Wszelkie prawa zastrzeżone."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "cargoOwners": "Właściciele ładunków",
+    "carriers": "Przewoźnicy",
+    "team": "Zespół",
+    "apiDocs": "API",
+    "login": "Zaloguj się",
+    "register": "Rejestracja"
+  }
+}
+

@@ -1,0 +1,59 @@
+{
+  "cargoOwners": {
+    "hero": {
+      "title": "Tez qidiruv",
+      "subtitle": "tashuvchilar",
+      "description": "LogistGo.pro xalqaro yuk tashish birjasiga ro'yxatdan o'ting va yukni bepul qo'shib, tashuvchi topishingiz mumkin",
+      "register": "Ro'yxatdan o'tish"
+    },
+    "actions": {
+      "addCargo": {
+        "title": "Yukni bepul qo'shing",
+        "description": "Uni tashuvchilar va ekspeditorlar ko'radi. Yaxshi narxli yukni tez olib ketishadi.",
+        "button": "Qo'shish"
+      },
+      "findCarrier": {
+        "title": "Tashuvchi topish",
+        "description": "LogistGo.pro-da har kuni ko'plab mashinalar bo'sh. O'zingiz bir necha daqiqada mos keladiganini toping.",
+        "button": "Topish"
+      }
+    },
+    "safety": {
+      "title": "Xavfsiz ish uchun vositalar",
+      "subtitle": "Yuklarni himoya qilishga va firibgarlar bilan bog'lanmaslikka yordam beradi",
+      "passport": {
+        "title": "LogistGo.pro ishtirokchisining pasporti",
+        "description": "ishtirokchining obro'si va halolligini aks ettiradi"
+      },
+      "rating": {
+        "title": "LogistGo.pro ishtirokchilari reytingi",
+        "description": "Belarus, Rossiya, Qozog'iston, Polsha, Litvada eng yaxshi tashuvchilar yoki ekspeditorlarni topishga imkon beradi"
+      },
+      "checks": {
+        "title": "LogistGo.pro tekshiruvlari",
+        "description": "tashuvchi firibgar emasligiga, qarzdor emasligiga ishonch hosil qilishga yordam beradi va boshqa xavflarni aks ettiradi"
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Hisobotlar va tahlil",
+        "description": "Barcha harakatlarni kuzatish va keyin hisobotlar yordamida tahlil qilish mumkin. Kim, qanday narxda va qayerga yuk tashiganini bilasiz. Bu logistikani optimallashtirish imkonini beradi."
+      },
+      "telegram": {
+        "title": "Telegram bot",
+        "description": "Sizga kompyuter kerak emas.",
+        "link": "Telegram bot",
+        "description2": "har qanday joyda LogistGo.pro bilan ishlash imkonini beradi."
+      }
+    },
+    "cta": {
+      "title": "LogistGo.pro-da barcha yuk tashishni tashkil qiling — tashuvchi izlashdan hujjatlar almashishgacha",
+      "description": "LogistGo.pro Belarus, Rossiya, Qozog'iston, Polsha, Litvadan tashuvchilarni birlashtiradi — o'nlab saytlar, messenjerlar va telefon qo'ng'iroqlarini almashtiradi",
+      "button": "Bepul qo'shilish"
+    },
+    "footer": {
+      "description": "Ijtimoiy tarmoqlar va tender saytlaridan yuk tashuvchilar va jo'natuvchilar bazasi"
+    }
+  }
+}
+

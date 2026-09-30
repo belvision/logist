@@ -1,0 +1,81 @@
+{
+  "carriers": {
+    "hero": {
+      "title": "Yuk qidirish",
+      "subtitle": "tashuvchilar uchun",
+      "description": "LogistGo.pro xalqaro yuk tashish birjasiga ro'yxatdan o'ting va transportingiz uchun mos yuklarni toping",
+      "register": "Ro'yxatdan o'tish"
+    },
+    "mainSection": {
+      "title": "Transport qo'shing va mijozlar sizni o'zlari topishadi",
+      "subtitle": "LogistGo.pro-ga mashina qo'shing — bu bepul va 5 daqiqadan ortiq vaqt olmaydi",
+      "participants": {
+        "title": "O'zbekiston va boshqa mamlakatlardan ishtirokchilar",
+        "description": "Javoblarni kuting — LogistGo.pro ishtirokchilari muntazam ravishda birjada transport qidiradilar"
+      },
+      "international": {
+        "title": "Xalqaro tashish",
+        "description": "Har kuni LogistGo.pro-da O'zbekiston, Rossiya, Qozog'iston, Polsha, Litva bo'ylab yuk tashishni tashkil qilish uchun ishlashadi"
+      },
+      "quickReg": {
+        "title": "Tez ro'yxatdan o'tish",
+        "description": "Transport qo'shish uchun — tez ro'yxatdan o'ting"
+      },
+      "register": "Ro'yxatdan o'tish"
+    },
+    "convenience": {
+      "title": "LogistGo.pro tashuvchilarning vaqtini tejaydi",
+      "workAnywhere": {
+        "title": "Qulay joyda ishlang",
+        "link": "Telegram bot",
+        "description": "yuklarni topish imkonini beradi, hatto yo'lda bo'lsangiz va qo'lingizda kompyuter bo'lmasa ham."
+      },
+      "noManual": {
+        "title": "Hech narsani qo'lda to'ldirish kerak emas",
+        "description": "LogistGo.pro-ga bir marta rekvizitlar, hujjatlar skanerlari va boshqa ma'lumotlarni qo'shish kifoya. Keyingi ishda ular avtomatik ravishda tortiladi."
+      }
+    },
+    "safety": {
+      "title": "Tashuvchilarning xavfsiz ishi uchun vositalar",
+      "passport": {
+        "title": "LogistGo.pro ishtirokchisining pasporti",
+        "description": "Ishtirokchining obro'sini aks ettiradi, o'z vaqtida to'layotganini ko'rsatadi va to'lamaganlar bilan bog'lanmaslikka yordam beradi."
+      },
+      "rating": {
+        "title": "LogistGo.pro ishtirokchilari reytingi",
+        "description": "Sizning mamlakatingiz yoki mintaqangizdan eng yaxshi ishtirokchilarni topishga yordam beradi."
+      },
+      "checks": {
+        "title": "LogistGo.pro tekshiruvlari",
+        "description": "Yuk jo'natuvchi to'lovga qodir ekanligiga, qarzi yo'qligiga va qonun bilan muammolari yo'qligiga ishonch hosil qilishga yordam beradi."
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Analitika va hisobotlar",
+        "description": "Ishingizni kuzating, daromadlarni tahlil qiling va marshrutlarni optimallashtiring."
+      },
+      "mobile": {
+        "title": "Mobil ilova",
+        "description": "Mobil ilova orqali har qanday joyda LogistGo.pro bilan ishlang."
+      }
+    },
+    "free": {
+      "title": "Ro'yxatdan o'ting va bepul imkoniyatga ega bo'lasiz:",
+      "seeContacts": {
+        "title": "Yuklardagi kontaktlarni ko'rish",
+        "description": "O'zbekiston, Rossiya, Qozog'iston, Polsha, Litva bo'ylab"
+      },
+      "addTransport": {
+        "title": "Mashinalaringizni qo'shish",
+        "description": "Va yuk jo'natuvchilardan takliflarni olish"
+      },
+      "joinButton": "Bepul qo'shilish",
+      "joinButtonShort": "Qo'shiling"
+    },
+    "footer": {
+      "description": "Ijtimoiy tarmoqlar va tender saytlaridan yuk tashuvchilar va jo'natuvchilar bazasi"
+    }
+  }
+}
+

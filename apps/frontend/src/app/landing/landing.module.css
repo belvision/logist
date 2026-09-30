@@ -1,0 +1,91 @@
+/* Landing Page Styles */
+
+/* Chat Widget Animation */
+@keyframes widget-shake {
+  0%, 100%, 94% {
+    transform: none;
+  }
+  96% {
+    transform: translateY(-10px) scale(1.25);
+  }
+  98% {
+    transform: translateY(0) scale(0.9);
+  }
+}
+
+.chat-widget {
+  animation: 5s infinite widget-shake;
+}
+
+.chat-widget:hover {
+  animation-play-state: paused;
+}
+
+/* Custom animations for landing page */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero section specific styles */
+.hero-background {
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-background {
+    background-attachment: scroll;
+  }
+}
+
+/* Custom button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+
+.btn-secondary {
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #ffffff;
+  color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Stats section animation */
+.stat-number {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Feature cards hover effect */
+.feature-card {
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,81 @@
+{
+  "carriers": {
+    "hero": {
+      "title": "Wyszukiwanie ładunków",
+      "subtitle": "dla przewoźników",
+      "description": "Zarejestruj się na międzynarodowej Giełdzie transportowej LogistGo.pro i znajdź odpowiednie ładunki dla swojego pojazdu",
+      "register": "Zarejestruj się"
+    },
+    "mainSection": {
+      "title": "Dodaj pojazd, a klienci sami Cię znajdą",
+      "subtitle": "Dodaj samochód na LogistGo.pro — to bezpłatne i zajmie nie więcej niż 5 minut",
+      "participants": {
+        "title": "Uczestnicy z Białorusi i innych krajów",
+        "description": "Poczekaj na odpowiedzi — uczestnicy LogistGo.pro regularnie szukają transportu na Giełdzie"
+      },
+      "international": {
+        "title": "Transporty międzynarodowe",
+        "description": "Codziennie pracują na LogistGo.pro, aby zorganizować transport ładunków po Białorusi, Rosji, Kazachstanie, Polsce, Litwie"
+      },
+      "quickReg": {
+        "title": "Szybka rejestracja",
+        "description": "Aby dodać pojazd — przejdź szybką rejestrację"
+      },
+      "register": "Zarejestruj się"
+    },
+    "convenience": {
+      "title": "LogistGo.pro oszczędza czas przewoźników",
+      "workAnywhere": {
+        "title": "Pracuj tam, gdzie Ci wygodnie",
+        "link": "Bot Telegram",
+        "description": "pozwoli znaleźć ładunki, nawet jeśli jesteś w drodze i nie masz pod ręką komputera."
+      },
+      "noManual": {
+        "title": "Nie musisz nic wypełniać ręcznie",
+        "description": "Wystarczy raz dodać na LogistGo.pro dane, skany dokumentów i inne informacje. Przy dalszej pracy automatycznie się pobiorą."
+      }
+    },
+    "safety": {
+      "title": "Narzędzia do bezpiecznej pracy przewoźników",
+      "passport": {
+        "title": "Paszport uczestnika LogistGo.pro",
+        "description": "Odzwierciedla reputację uczestnika, pokazuje, czy płaci na czas i pomaga nie wiązać się z niesolidnymi płatnikami."
+      },
+      "rating": {
+        "title": "Ocena uczestników LogistGo.pro",
+        "description": "Pomaga znaleźć najlepszych uczestników z Twojego kraju lub regionu."
+      },
+      "checks": {
+        "title": "Kontrole LogistGo.pro",
+        "description": "Pomagają upewnić się, że nadawca jest wypłacalny, nie ma długów i problemów z prawem."
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Analityka i raporty",
+        "description": "Śledź swoją pracę, analizuj dochody i optymalizuj trasy."
+      },
+      "mobile": {
+        "title": "Aplikacja mobilna",
+        "description": "Pracuj z LogistGo.pro w dowolnym miejscu przez aplikację mobilną."
+      }
+    },
+    "free": {
+      "title": "Zarejestruj się i będziesz mógł bezpłatnie:",
+      "seeContacts": {
+        "title": "Widzieć kontakty w ładunkach",
+        "description": "Po Białorusi, Rosji, Kazachstanie, Polsce, Litwie"
+      },
+      "addTransport": {
+        "title": "Dodawać swoje pojazdy",
+        "description": "I otrzymywać propozycje od nadawców"
+      },
+      "joinButton": "Dołącz bezpłatnie",
+      "joinButtonShort": "Dołącz"
+    },
+    "footer": {
+      "description": "Baza przewoźników i nadawców ładunków z mediów społecznościowych i stron przetargowych"
+    }
+  }
+}
+

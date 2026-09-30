@@ -1,0 +1,167 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+/* Предотвращение горизонтальной прокрутки */
+* {
+    max-width: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+}
+
+/* Адаптивные изображения */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Адаптивные контейнеры */
+.container {
+    max-width: 100%;
+}
+
+/* CSS переменные для тем */
+:root {
+    /* Светлая тема - улучшенный контраст */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+    
+    /* Дополнительные переменные для лучшего контраста */
+    --light-bg: 0 0% 98%;
+    --light-card: 0 0% 100%;
+    --light-border: 214.3 31.8% 85%;
+    --light-button: 221.2 83.2% 53.3%;
+    --light-button-hover: 221.2 83.2% 45%;
+    --light-text: 222.2 84% 4.9%;
+    --light-text-muted: 215.4 16.3% 46.9%;
+}
+
+.dark {
+    /* Темная тема - улучшенный контраст */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 94.1%;
+    
+    /* Дополнительные переменные для темной темы */
+    --dark-bg: 222.2 84% 4.9%;
+    --dark-card: 217.2 32.6% 17.5%;
+    --dark-border: 217.2 32.6% 25%;
+    --dark-button: 217.2 91.2% 59.8%;
+    --dark-button-hover: 217.2 91.2% 65%;
+    --dark-text: 210 40% 98%;
+    --dark-text-muted: 215 20.2% 65.1%;
+}
+
+.bg-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* Улучшенный градиент для светлой темы с лучшим контрастом */
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 30%, #e2e8f0 70%, #cbd5e1 100%);
+    z-index: -1;
+    transition: background 0.3s ease;
+}
+
+.dark .bg-gradient {
+    /* Улучшенный градиент для темной темы с лучшим контрастом */
+    background: linear-gradient(to bottom right, #0f172a 0%, #1e293b 30%, #334155 70%, #475569 100%);
+}
+
+/* Стили для полей ввода */
+input::placeholder {
+    color: #9ca3af;
+}
+
+.dark input::placeholder {
+    color: #6b7280;
+}
+
+/* Улучшенные стили для светлой темы */
+input[type="email"], input[type="password"], input[type="text"] {
+    color-scheme: light;
+}
+
+.dark input[type="email"], .dark input[type="password"], .dark input[type="text"] {
+    color-scheme: dark;
+}
+
+.hide-scrollbar {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+	display: none;
+}
+
+/* Стили для карты Leaflet (из старого проекта) */
+.leaflet-control-attribution {
+    display: none !important;
+}
+
+.leaflet-control-attribution::before { 
+    content: none !important; 
+    display: none !important; 
+}
+
+.leaflet-control-attribution .ua-flag,
+.leaflet-control-attribution [data-ua-flag],
+.leaflet-control-attribution img[alt*="flag"],
+.leaflet-control-attribution svg[aria-label*="flag"] { 
+    display: none !important; 
+}
+
+/* Скрытие бейджа reCAPTCHA */
+.grecaptcha-badge { 
+    visibility: hidden !important; 
+}

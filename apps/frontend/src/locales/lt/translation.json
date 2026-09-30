@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "title": "Tarptautinė",
+    "subtitle": "Krovinių vežimo birža",
+    "brand": "LogistGo.pro",
+    "description": "Padeda vežėjams ir krovinių siuntėjams iš Baltarusijos, Rusijos, Kazachstano, Lenkijos, Lietuvos rasti vienas kitą ir susitarti dėl vežimo",
+    "register": "Registruotis",
+    "database": "Krovinių vežėjų ir siuntėjų bazė",
+    "source": "iš socialinių tinklų ir konkursų svetainių"
+  },
+  "stats": {
+    "cargo": {
+      "title": "Krovinių bazė",
+      "description": "laukia atsakymų iš vežėjų"
+    },
+    "transport": {
+      "title": "Transporto priemonių bazė",
+      "description": "pasiruošę vežti dabar"
+    },
+    "users": {
+      "title": "Tūkstančiai dalyvių",
+      "description": "kasdien dirba su LogistGo.pro"
+    }
+  },
+  "features": {
+    "title": "Kodėl renkasi LogistGo.pro",
+    "subtitle": "Patikima krovinių vežimo platforma",
+    "safe": {
+      "title": "Saugiai",
+      "items": [
+        "LogistGo.pro dalyvio pasas atspindi jo reputaciją ir parodo, ar galima juo pasitikėti",
+        "LogistGo.pro dalyvių reitingas padeda rasti geriausius jūsų šalyje ar regione",
+        "Organizacijos patikrinimas per mokesčių tarnybą"
+      ]
+    },
+    "convenient": {
+      "title": "Patogiai",
+      "items": [
+        "Telegram botas su pagrindinėmis funkcijomis",
+        "Projekte galimybė formuoti elektroninius dokumentus ir keistis jais",
+        "Nereikia įvesti duomenų rankiniu būdu — pakanka įvesti juos vieną kartą"
+      ]
+    },
+    "free": {
+      "title": "Nemokamai",
+      "items": [
+        "Registracija",
+        "Krovinių ir transporto pridėjimas",
+        "Krovinių ir transporto paieška",
+        "Operatyvi techninė pagalba",
+        "Dalyvių grupė Telegram"
+      ]
+    }
+  },
+  "countries": {
+    "title": "Dirbame 9 šalyse",
+    "description": "LogistGo.pro sujungia vežėjus ir krovinių savininkus iš Baltarusijos, Rusijos, Kazachstano, Lenkijos, Lietuvos, Uzbekistano, Tadžikistano, Turkijos ir Gruzijos",
+    "selectCountry": "Pasirinkite šalį, kad sužinotumėte daugiau apie LogistGo.pro darbą jūsų regione",
+    "joinButton": "Prisijungti prie tarptautinės biržos"
+  },
+  "howToStart": {
+    "title": "Kaip pradėti dirbti su LogistGo.pro",
+    "steps": {
+      "title": "7 žingsniai sėkmingam darbui su LogistGo.pro pradėti",
+      "description": "Kaip vežėjas gali pradėti dirbti su LogistGo.pro, kad gautų krovinius.",
+      "button": "DAUGIAU INFORMACIJOS"
+    },
+    "transport": {
+      "title": "Kaip pridėti transportą",
+      "description": "Kaip pridėti savo automobilį, kad gautumėte pasiūlymus iš krovinių savininkų.",
+      "button": "DAUGIAU INFORMACIJOS"
+    },
+    "licenses": {
+      "title": "Kam reikalingos licencijos",
+      "description": "Kas LogistGo.pro prieinamas nemokamai, o kam reikia pirkti licenciją.",
+      "button": "DAUGIAU INFORMACIJOS"
+    }
+  },
+  "team": {
+    "title": "Mūsų komanda",
+    "subtitle": "Profesionalūs kūrėjai ir prekybos automatizatoriai",
+    "moreButton": "Daugiau"
+  },
+  "cta": {
+    "title": "Raskite patikimus partnerius LogistGo.pro",
+    "description": "Prisijunkite prie tūkstančių dalyvių, kurie jau dirba mūsų platformoje",
+    "cargoOwners": "Krovinių savininkams",
+    "carriers": "Vežėjams"
+  },
+  "footer": {
+    "representative": "LogistGo.pro atstovas Baltarusijoje Sergejus Gaevas",
+    "privacyPolicy": "Privatumo politika",
+    "offerAgreement": "Pasiūlymo sutartis",
+    "copyright": "© 2024 LogistGo.pro. Visos teisės saugomos."
+  },
+  "nav": {
+    "home": "Pagrindinis",
+    "cargoOwners": "Krovinių savininkai",
+    "carriers": "Vežėjai",
+    "team": "Komanda",
+    "apiDocs": "API",
+    "login": "Prisijungti",
+    "register": "Registracija"
+  }
+}
+
