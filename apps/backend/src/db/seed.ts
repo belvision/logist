@@ -9,7 +9,7 @@ async function main() {
     {
       username: 'admin',
       email: 'admin@example.com',
-      password: 'REDACTED_SECRET',
+      password: 'admin12345',
       firstName: 'Admin',
       lastName: 'User',
       isActive: true,
@@ -17,7 +17,7 @@ async function main() {
     {
       username: 'manager',
       email: 'manager@example.com',
-      password: 'REDACTED_SECRET',
+      password: 'manager12345',
       firstName: 'Manager',
       lastName: 'User',
       isActive: true,
@@ -25,7 +25,7 @@ async function main() {
     {
       username: 'kolina18',
       email: 'kolina18@yandex.ru',
-      password: 'REDACTED_SECRET',
+      password: '90UpRdf2OFmVRrJZ7n4W==@@#3',
       firstName: 'Kolina',
       lastName: 'User',
       isActive: true,

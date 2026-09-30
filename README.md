@@ -323,11 +323,11 @@ PATCH /api/user/me — обновить профиль текущего поль
 curl -i http://localhost:8080/
 curl -s http://localhost:8080/api/auth/register \
   -H 'content-type: application/json' \
-  -d '{"username":"demo","email":"demo@x.io","password":"REDACTED_SECRET"}'
+  -d '{"username":"demo","email":"demo@x.io","password":"password123"}'
 
 curl -s http://localhost:8080/api/auth/login \
   -H 'content-type: application/json' \
-  -d '{"email":"demo@x.io","password":"REDACTED_SECRET"}'
+  -d '{"email":"demo@x.io","password":"password123"}'
 ```
 
 ### Безопасность
@@ -392,6 +392,6 @@ curl -i http://localhost:8080/
 start http://localhost:8080/docs
 
 # Smoke: регистрация/логин
-curl -s http://localhost:8080/api/auth/register -H 'content-type: application/json' -d '{"username":"demo","email":"demo@x.io","password":"REDACTED_SECRET"}'
-curl -s http://localhost:8080/api/auth/login -H 'content-type: application/json' -d '{"email":"demo@x.io","password":"REDACTED_SECRET"}'
+curl -s http://localhost:8080/api/auth/register -H 'content-type: application/json' -d '{"username":"demo","email":"demo@x.io","password":"password123"}'
+curl -s http://localhost:8080/api/auth/login -H 'content-type: application/json' -d '{"email":"demo@x.io","password":"password123"}'
 ```
