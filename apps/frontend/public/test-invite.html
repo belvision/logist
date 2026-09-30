@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тест приглашений пользователей</title>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif; margin: 24px; color: #0f172a; background: #f8fafc; }
+        h1 { margin-top: 0; font-size: 22px; }
+        h2 { font-size: 18px; margin-bottom: 8px; }
+        .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+        .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+        .token-group { display: flex; gap: 8px; align-items: stretch; }
+        input[type="text"], input[type="email"], textarea, select { padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 8px; outline: none; min-width: 280px; background: #fff; }
+        textarea { min-height: 80px; }
+        button { background: #0ea5e9; color: white; border: none; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+        button:hover { background: #0284c7; }
+        button:disabled { background: #94a3b8; cursor: not-allowed; }
+        .muted { color: #475569; font-size: 12px; }
+        .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+        pre { background: #0b1220; color: #e2e8f0; padding: 12px; border-radius: 8px; overflow: auto; }
+        .success { color: #059669; }
+        .error { color: #dc2626; }
+    </style>
+</head>
+<body>
+    <h1>Тест API приглашения пользователей в компанию</h1>
+    <div class="card">
+        <div class="row" style="justify-content: space-between;">
+            <div>
+                <div class="muted">Текущий токен</div>
+                <div class="token-group" style="margin-top: 6px;">
+                    <input id="tokenField" class="mono" type="text" placeholder="Нажмите Войти, чтобы получить токен" readonly style="min-width: 520px;">
+                    <button id="copyBtn" onclick="copyToken()" disabled>Скопировать токен</button>
+                </div>
+            </div>
+            <div>
+                <button onclick="login()">Войти как Сергей (владелец)</button>
+            </div>
+        </div>
+        <div id="copyStatus" class="muted" style="margin-top: 8px;"></div>
+        <div id="loginResult" style="margin-top: 12px;"></div>
+    </div>
+    
+    <div>
+        <h2>2. Пригласить нового пользователя</h2>
+        <input type="email" id="inviteEmail" placeholder="Email нового пользователя" value="newuser@example.com" style="width: 300px;">
+        <br><br>
+        <select id="inviteRole">
+            <option value="Пользователь">Пользователь</option>
+            <option value="Администратор">Администратор</option>
+        </select>
+        <br><br>
+        <textarea id="inviteMessage" placeholder="Сообщение приглашения" style="width: 300px; height: 60px;">Добро пожаловать в команду ООО ЛогистГо!</textarea>
+        <br><br>
+        <button onclick="inviteUser()">Отправить приглашение</button>
+        <div id="inviteResult"></div>
+    </div>
+    
+    <div>
+        <h2>3. Попытка добавить несуществующего пользователя</h2>
+        <button onclick="addNonExistentUser()">Добавить несуществующего пользователя</button>
+        <div id="addNonExistentResult"></div>
+    </div>
+    
+    <div>
+        <h2>4. Получить список пользователей компании</h2>
+        <button onclick="getUsers()">Получить список</button>
+        <div id="getUsersResult"></div>
+    </div>
+
+    <script>
+        let token = '';
+        
+        async function login() {
+            try {
+                const response = await fetch('http://0.0.0.0:5555/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: '5730844@gmail.com',
+                        password: 'REDACTED_SECRET'
+                    })
+                });
+                
+                const data = await response.json();
+                renderTokens(data);
+                
+                if (data.token) {
+                    token = data.token;
+                    console.log('Токен получен:', token);
+                    const tf = document.getElementById('tokenField');
+                    const btn = document.getElementById('copyBtn');
+                    tf.value = token;
+                    btn.disabled = false;
+                    setCopyStatus('Токен получен. Можно копировать.', true);
+                }
+            } catch (error) {
+                document.getElementById('loginResult').innerHTML =
+                    '<p class="error">Ошибка: ' + error.message + '</p>';
+            }
+        }
+
+        function setCopyStatus(message, ok) {
+            const status = document.getElementById('copyStatus');
+            status.textContent = message || '';
+            status.className = 'muted ' + (ok ? 'success' : 'error');
+        }
+
+        function renderTokens(data) {
+            const container = document.getElementById('loginResult');
+            const escapedJson = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            let html = '';
+            const rows = [];
+            if (data && data.token) {
+                rows.push(tokenRow('token', 'Основной токен', 'respToken', data.token));
+            }
+            if (data && data.accessToken) {
+                rows.push(tokenRow('accessToken', 'Access token', 'respAccessToken', data.accessToken));
+            }
+            if (data && data.refreshToken) {
+                rows.push(tokenRow('refreshToken', 'Refresh token', 'respRefreshToken', data.refreshToken));
+            }
+            if (rows.length === 0) {
+                html = '<div class="muted">Ответ не содержит токенов.</div>' + escapedJson;
+            } else {
+                html = '<div class="muted" style="margin-bottom:8px;">Полученные токены</div>' + rows.join('') +
+                       '<div style="margin-top:10px;">' + escapedJson + '</div>';
+            }
+            container.innerHTML = html;
+        }
+
+        function tokenRow(key, label, inputId, value) {
+            return (
+                '<div class="row" style="margin: 6px 0;">' +
+                    '<div class="muted" style="min-width: 120px;">' + label + '</div>' +
+                    '<input id="' + inputId + '" class="mono" type="text" value="' + value + '" readonly style="flex:1; min-width: 420px;">' +
+                    '<button onclick="copyById(\'' + inputId + '\')">Копировать</button>' +
+                '</div>'
+            );
+        }
+
+        async function copyById(inputId) {
+            const el = document.getElementById(inputId);
+            if (!el) return;
+            const value = el.value || '';
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    await navigator.clipboard.writeText(value);
+                } else {
+                    el.removeAttribute('readonly');
+                    el.select();
+                    document.execCommand('copy');
+                    el.setAttribute('readonly', '');
+                    window.getSelection().removeAllRanges();
+                }
+                setCopyStatus('Скопировано: ' + inputId, true);
+            } catch (e) {
+                setCopyStatus('Не удалось скопировать: ' + (e && e.message ? e.message : e), false);
+            }
+        }
+
+        async function copyToken() {
+            if (!token) {
+                setCopyStatus('Токен отсутствует. Сначала выполните вход.', false);
+                return;
+            }
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    await navigator.clipboard.writeText(token);
+                } else {
+                    const tf = document.getElementById('tokenField');
+                    tf.removeAttribute('readonly');
+                    tf.select();
+                    document.execCommand('copy');
+                    tf.setAttribute('readonly', '');
+                    window.getSelection().removeAllRanges();
+                }
+                setCopyStatus('Скопировано в буфер обмена.', true);
+            } catch (e) {
+                setCopyStatus('Не удалось скопировать: ' + (e && e.message ? e.message : e), false);
+            }
+        }
+        
+        async function inviteUser() {
+            if (!token) {
+                alert('Сначала авторизуйтесь!');
+                return;
+            }
+            
+            const email = document.getElementById('inviteEmail').value;
+            const role = document.getElementById('inviteRole').value;
+            const message = document.getElementById('inviteMessage').value;
+            
+            try {
+                const response = await fetch('http://0.0.0.0:5555/api/company/61b64cb7-2b56-4ed8-a2f3-728e354731eb/invite', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + token
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        role: role,
+                        message: message
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('inviteResult').innerHTML = 
+                    '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('inviteResult').innerHTML = 
+                    '<p style="color: red;">Ошибка: ' + error.message + '</p>';
+            }
+        }
+        
+        async function addNonExistentUser() {
+            if (!token) {
+                alert('Сначала авторизуйтесь!');
+                return;
+            }
+            
+            try {
+                const response = await fetch('http://0.0.0.0:5555/api/company/61b64cb7-2b56-4ed8-a2f3-728e354731eb/users', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + token
+                    },
+                    body: JSON.stringify({
+                        email: 'nonexistent@example.com',
+                        role: 'Пользователь'
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('addNonExistentResult').innerHTML = 
+                    '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('addNonExistentResult').innerHTML = 
+                    '<p style="color: red;">Ошибка: ' + error.message + '</p>';
+            }
+        }
+        
+        async function getUsers() {
+            if (!token) {
+                alert('Сначала авторизуйтесь!');
+                return;
+            }
+            
+            try {
+                const response = await fetch('http://0.0.0.0:5555/api/company/61b64cb7-2b56-4ed8-a2f3-728e354731eb/users', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                });
+                
+                const data = await response.json();
+                document.getElementById('getUsersResult').innerHTML = 
+                    '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('getUsersResult').innerHTML = 
+                    '<p style="color: red;">Ошибка: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>
