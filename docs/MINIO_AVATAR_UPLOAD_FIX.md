@@ -23,7 +23,7 @@ env: {
   MINIO_PORT: '443',
   MINIO_USE_SSL: 'true',
   MINIO_ACCESS_KEY: 'REDACTED_SECRET',
-  MINIO_SECRET_KEY: 'REDACTED_SECRET',
+  MINIO_SECRET_KEY: 'JXpKD1wn9rf8ash4fwr)pq!oM@Ry2e3bh0OW!)t',
   MINIO_BUCKET_NAME: 'logistic-pro'
 }
 ```

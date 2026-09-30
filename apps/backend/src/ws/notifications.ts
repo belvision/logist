@@ -65,7 +65,7 @@ export function attachNotificationsWSS(server: import('http').Server) {
       console.log('[WebSocket] URL:', req.url);
       console.log('[WebSocket] Headers:', req.headers);
       const token = url.searchParams.get('token');
-      console.log('[WebSocket] Token:'REDACTED_SECRET'present' : 'missing');
+      console.log('[WebSocket] Token:', token ? 'present' : 'missing');
       if (!token) {
         console.log('[WebSocket] No token provided, closing connection');
         ws.close(4001, 'token_required');
