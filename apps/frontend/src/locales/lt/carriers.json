@@ -1,0 +1,81 @@
+{
+  "carriers": {
+    "hero": {
+      "title": "Krovinių paieška",
+      "subtitle": "vežėjams",
+      "description": "Užsiregistruokite tarptautinėje krovinių vežimo biržoje LogistGo.pro ir raskite tinkamus krovinius savo transportui",
+      "register": "Registruotis"
+    },
+    "mainSection": {
+      "title": "Pridėkite transportą ir užsakovai patys jus ras",
+      "subtitle": "Pridėkite automobilį LogistGo.pro — tai nemoka ir užtruks ne daugiau kaip 5 minutes",
+      "participants": {
+        "title": "Dalyviai iš Lietuvos ir kitų šalių",
+        "description": "Palaukite atsakymų — LogistGo.pro dalyviai reguliariai ieško transporto biržoje"
+      },
+      "international": {
+        "title": "Tarptautiniai vežimai",
+        "description": "Kasdien dirba LogistGo.pro organizuodami krovinių vežimą Lietuvoje, Rusijoje, Kazachstane, Lenkijoje, Baltarusijoje"
+      },
+      "quickReg": {
+        "title": "Greita registracija",
+        "description": "Norėdami pridėti transportą — praeikite greitą registraciją"
+      },
+      "register": "Registruotis"
+    },
+    "convenience": {
+      "title": "LogistGo.pro taupo vežėjų laiką",
+      "workAnywhere": {
+        "title": "Dirbkite ten, kur patogu",
+        "link": "Telegram botas",
+        "description": "leis rasti krovinius, net jei esate kelyje ir neturite po ranka kompiuterio."
+      },
+      "noManual": {
+        "title": "Nereikia nieko pildyti rankiniu būdu",
+        "description": "Pakanka vieną kartą pridėti LogistGo.pro rekvizitus, dokumentų skanus ir kitus duomenis. Toliau dirbant jie automatiškai prisijungs."
+      }
+    },
+    "safety": {
+      "title": "Įrankiai saugiam vežėjų darbui",
+      "passport": {
+        "title": "LogistGo.pro dalyvio pasas",
+        "description": "Atspindi dalyvio reputaciją, rodo, ar jis moka laiku, ir padeda nesusieti su nemokančiais."
+      },
+      "rating": {
+        "title": "LogistGo.pro dalyvių reitingas",
+        "description": "Padeda rasti geriausius dalyvius iš jūsų šalies ar regiono."
+      },
+      "checks": {
+        "title": "LogistGo.pro patikrinimai",
+        "description": "Padeda įsitikinti, kad siuntėjas yra mokus, neturi skolų ir problemų su įstatymu."
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Analitika ir ataskaitos",
+        "description": "Stebėkite savo darbą, analizuokite pajamas ir optimizuokite maršrutus."
+      },
+      "mobile": {
+        "title": "Mobili programa",
+        "description": "Dirbkite su LogistGo.pro bet kurioje vietoje per mobilią programą."
+      }
+    },
+    "free": {
+      "title": "Užsiregistruokite ir galėsite nemokamai:",
+      "seeContacts": {
+        "title": "Matyti kontaktus kroviniuose",
+        "description": "Lietuvoje, Rusijoje, Kazachstane, Lenkijoje, Baltarusijoje"
+      },
+      "addTransport": {
+        "title": "Pridėti savo automobilius",
+        "description": "Ir gauti pasiūlymus iš siuntėjų"
+      },
+      "joinButton": "Prisijungti nemokamai",
+      "joinButtonShort": "Prisijunkite"
+    },
+    "footer": {
+      "description": "Vežėjų ir krovinių siuntėjų bazė iš socialinių tinklų ir konkursų svetainių"
+    }
+  }
+}
+

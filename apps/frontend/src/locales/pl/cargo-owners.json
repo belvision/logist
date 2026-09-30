@@ -1,0 +1,60 @@
+{
+  "cargoOwners": {
+    "hero": {
+      "title": "Szybkie wyszukiwanie",
+      "subtitle": "przewoźników",
+      "description": "Zarejestruj się na międzynarodowej Giełdzie transportowej LogistGo.pro i będziesz mógł bezpłatnie dodać ładunek i znaleźć przewoźnika",
+      "register": "Zarejestruj się",
+      "login": "Zaloguj się"
+    },
+    "actions": {
+      "addCargo": {
+        "title": "Dodaj ładunek bezpłatnie",
+        "description": "Zobaczą go przewoźnicy i spedytorzy. Ładunek z dobrą stawką jest szybko rozładowywany.",
+        "button": "Dodaj"
+      },
+      "findCarrier": {
+        "title": "Znajdź przewoźnika",
+        "description": "Na LogistGo.pro codziennie jest wolnych wiele pojazdów. Znajdź odpowiedni samodzielnie w kilka minut.",
+        "button": "Znajdź"
+      }
+    },
+    "safety": {
+      "title": "Narzędzia do bezpiecznej pracy",
+      "subtitle": "Pomagają chronić ładunki i nie wiązać się z oszustami",
+      "passport": {
+        "title": "Paszport uczestnika LogistGo.pro",
+        "description": "odzwierciedla reputację uczestnika i jego rzetelność"
+      },
+      "rating": {
+        "title": "Ocena uczestników LogistGo.pro",
+        "description": "pozwala znaleźć najlepszych przewoźników lub spedytorów na Białorusi, w Rosji, Kazachstanie, Polsce, Litwie"
+      },
+      "checks": {
+        "title": "Kontrole LogistGo.pro",
+        "description": "pomagają upewnić się, że przewoźnik nie jest oszustem, nie jest dłużnikiem i odzwierciedlają inne ryzyko"
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Raporty i analityka",
+        "description": "Wszystkie działania można śledzić, a następnie analizować za pomocą raportów. Będziesz wiedzieć, kto, po jakiej cenie i dokąd przewoził ładunki. To pozwoli zoptymalizować logistykę."
+      },
+      "telegram": {
+        "title": "Bot Telegram",
+        "description": "Nie musisz mieć pod ręką komputera.",
+        "link": "Bot Telegram",
+        "description2": "pozwoli pracować z LogistGo.pro wszędzie, gdziekolwiek jesteś."
+      }
+    },
+    "cta": {
+      "title": "Zorganizuj cały transport na LogistGo.pro — od wyszukiwania przewoźnika po wymianę dokumentów",
+      "description": "LogistGo.pro łączy przewoźników z Białorusi, Rosji, Kazachstanu, Polski, Litwy — zastępuje dziesiątki stron internetowych, komunikatorów i połączeń telefonicznych",
+      "button": "Dołącz bezpłatnie"
+    },
+    "footer": {
+      "description": "Baza przewoźników i nadawców ładunków z mediów społecznościowych i stron przetargowych"
+    }
+  }
+}
+

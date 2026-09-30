@@ -1,0 +1,60 @@
+{
+  "cargoOwners": {
+    "hero": {
+      "title": "Greita paieška",
+      "subtitle": "vežėjų",
+      "description": "Užsiregistruokite tarptautinėje krovinių vežimo biržoje LogistGo.pro ir galėsite nemokamai pridėti krovinį ir rasti vežėją",
+      "register": "Registruotis",
+      "login": "Prisijungti"
+    },
+    "actions": {
+      "addCargo": {
+        "title": "Pridėti krovinį nemokamai",
+        "description": "Jį matys vežėjai ir ekspeditoriai. Krovinį su gera kaina greitai paima.",
+        "button": "Pridėti"
+      },
+      "findCarrier": {
+        "title": "Rasti vežėją",
+        "description": "LogistGo.pro kasdien laisvi daugybė automobilių. Raskite tinkamą patys per kelias minutes.",
+        "button": "Rasti"
+      }
+    },
+    "safety": {
+      "title": "Įrankiai saugiam darbui",
+      "subtitle": "Padeda apsaugoti krovinius ir nesusieti su sukčiais",
+      "passport": {
+        "title": "LogistGo.pro dalyvio pasas",
+        "description": "atspindi dalyvio reputaciją ir jo sąžiningumą"
+      },
+      "rating": {
+        "title": "LogistGo.pro dalyvių reitingas",
+        "description": "leidžia rasti geriausius vežėjus ar ekspeditorius Baltarusijoje, Rusijoje, Kazachstane, Lenkijoje, Lietuvoje"
+      },
+      "checks": {
+        "title": "LogistGo.pro patikrinimai",
+        "description": "padeda įsitikinti, kad vežėjas nėra sukčius, nėra skolininkas ir atspindi kitas rizikas"
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Ataskaitos ir analitika",
+        "description": "Visus veiksmus galima stebėti, o tada analizuoti ataskaitų pagalba. Žinosite, kas, kokia kaina ir kur vežė krovinius. Tai leis optimizuoti logistiką."
+      },
+      "telegram": {
+        "title": "Telegram botas",
+        "description": "Jums nereikia turėti po ranka kompiuterio.",
+        "link": "Telegram botas",
+        "description2": "leis dirbti su LogistGo.pro bet kur, kur norite."
+      }
+    },
+    "cta": {
+      "title": "Organizuokite visą krovinių vežimą LogistGo.pro — nuo vežėjo paieškos iki dokumentų mainų",
+      "description": "LogistGo.pro jungia vežėjus iš Baltarusijos, Rusijos, Kazachstano, Lenkijos, Lietuvos — pakeičia dešimtis svetainių, mesendžerių ir telefono skambučių",
+      "button": "Prisijungti nemokamai"
+    },
+    "footer": {
+      "description": "Vežėjų ir krovinių siuntėjų bazė iš socialinių tinklų ir konkursų svetainių"
+    }
+  }
+}
+

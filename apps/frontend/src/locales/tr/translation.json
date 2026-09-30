@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "title": "Uluslararası",
+    "subtitle": "Yük taşımacılığı borsası",
+    "brand": "LogistGo.pro",
+    "description": "Belarus, Rusya, Kazakistan, Polonya, Litvanya'dan taşıyıcılar ve yük gönderenlerin birbirlerini bulmalarına ve taşıma konusunda anlaşmalarına yardımcı olur",
+    "register": "Kayıt ol",
+    "login": "Giriş yap",
+    "database": "Yük taşıyıcıları ve gönderenleri veritabanı",
+    "source": "sosyal ağlardan ve ihale sitelerinden"
+  },
+  "stats": {
+    "cargo": {
+      "title": "Yük veritabanı",
+      "description": "taşıyıcılardan yanıt bekliyor"
+    },
+    "transport": {
+      "title": "Araç veritabanı",
+      "description": "şimdi taşımaya hazır"
+    },
+    "users": {
+      "title": "Binlerce katılımcı",
+      "description": "her gün LogistGo.pro'da çalışıyor"
+    }
+  },
+  "features": {
+    "title": "Neden LogistGo.pro'yu seçiyorlar",
+    "subtitle": "Yük taşımacılığı için güvenilir platform",
+    "safe": {
+      "title": "Güvenli",
+      "items": [
+        "LogistGo.pro katılımcısının pasaportu itibarını yansıtır ve ona güvenilebileceğini gösterir",
+        "LogistGo.pro katılımcılarının derecelendirmesi ülkenizde veya bölgenizde en iyileri bulmanıza yardımcı olur",
+        "Organizasyonun vergi dairesi üzerinden kontrolü"
+      ]
+    },
+    "convenient": {
+      "title": "Kullanışlı",
+      "items": [
+        "Temel işlevlere sahip Telegram botu",
+        "Projede elektronik belgeler oluşturma ve bunları paylaşma imkanı bulunmaktadır",
+        "Verileri elle girmenize gerek yok — bir kez girmek yeterli"
+      ]
+    },
+    "free": {
+      "title": "Ücretsiz",
+      "items": [
+        "Kayıt",
+        "Yük ve araç ekleme",
+        "Yük ve araç arama",
+        "Hızlı teknik destek",
+        "Katılımcılar için Telegram grubu"
+      ]
+    }
+  },
+  "countries": {
+    "title": "9 ülkede çalışıyoruz",
+    "description": "LogistGo.pro, Belarus, Rusya, Kazakistan, Polonya, Litvanya, Özbekistan, Tacikistan, Türkiye ve Gürcistan'dan taşıyıcıları ve yük sahiplerini bir araya getiriyor",
+    "selectCountry": "Bölgenizdeki LogistGo.pro çalışmaları hakkında daha fazla bilgi edinmek için ülkeyi seçin",
+    "joinButton": "Uluslararası borsaya katılın"
+  },
+  "howToStart": {
+    "title": "LogistGo.pro'da nasıl çalışmaya başlanır",
+    "steps": {
+      "title": "LogistGo.pro'da başarılı çalışmaya başlamak için 6 adım",
+      "description": "Taşıyıcının yük almak için LogistGo.pro'da nasıl çalışmaya başlaması gerekir.",
+      "button": "DETAYLAR"
+    },
+    "transport": {
+      "title": "Araç nasıl eklenir",
+      "description": "Yük sahiplerinden teklifler almak için aracınızı nasıl ekleyeceğiniz.",
+      "button": "DETAYLAR"
+    },
+    "licenses": {
+      "title": "Lisanslar neden gerekli",
+      "description": "LogistGo.pro'da ne ücretsiz mevcut ve ne için lisans satın almak gerekiyor.",
+      "button": "DETAYLAR"
+    }
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "subtitle": "Profesyonel geliştiriciler ve ticaret otomasyoncuları",
+    "moreButton": "Detaylı"
+  },
+  "cta": {
+    "title": "LogistGo.pro'da güvenilir ortaklar bulun",
+    "description": "Platformumuzda çalışan binlerce katılımcıya katılın",
+    "cargoOwners": "Yük sahipleri için",
+    "carriers": "Taşıyıcılar için"
+  },
+  "footer": {
+    "representative": "LogistGo.pro'nun Belarus temsilcisi Sergey Gaev",
+    "privacyPolicy": "Gizlilik politikası",
+    "offerAgreement": "Teklif sözleşmesi",
+    "copyright": "© 2024 LogistGo.pro. Tüm hakları saklıdır."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "cargoOwners": "Yük sahipleri",
+    "carriers": "Taşıyıcılar",
+    "team": "Ekip",
+    "apiDocs": "API",
+    "login": "Giriş yap",
+    "register": "Kayıt"
+  }
+}
+

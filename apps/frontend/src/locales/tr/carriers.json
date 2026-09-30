@@ -1,0 +1,81 @@
+{
+  "carriers": {
+    "hero": {
+      "title": "Yük arama",
+      "subtitle": "taşıyıcılar için",
+      "description": "LogistGo.pro uluslararası yük taşımacılığı borsasına kaydolun ve aracınıza uygun yükleri bulun",
+      "register": "Kayıt ol"
+    },
+    "mainSection": {
+      "title": "Araç ekleyin ve müşteriler sizi kendileri bulsun",
+      "subtitle": "LogistGo.pro'ya araç ekleyin — ücretsiz ve 5 dakikadan fazla sürmez",
+      "participants": {
+        "title": "Türkiye ve diğer ülkelerden katılımcılar",
+        "description": "Yanıtları bekleyin — LogistGo.pro katılımcıları düzenli olarak borsada araç ararlar"
+      },
+      "international": {
+        "title": "Uluslararası taşımacılık",
+        "description": "Her gün LogistGo.pro'da Türkiye, Rusya, Kazakistan, Polonya, Litvanya'da yük taşımacılığı organize etmek için çalışırlar"
+      },
+      "quickReg": {
+        "title": "Hızlı kayıt",
+        "description": "Araç eklemek için — hızlı kayıt olun"
+      },
+      "register": "Kayıt ol"
+    },
+    "convenience": {
+      "title": "LogistGo.pro taşıyıcıların zamanını tasarruf eder",
+      "workAnywhere": {
+        "title": "Size uygun yerde çalışın",
+        "link": "Telegram bot",
+        "description": "yük bulmanıza olanak tanır, yoldayken ve elinizde bilgisayar olmasa bile."
+      },
+      "noManual": {
+        "title": "Hiçbir şeyi manuel olarak doldurmanız gerekmez",
+        "description": "LogistGo.pro'ya bir kez bilgileri, belge taramalarını ve diğer verileri eklemek yeterlidir. Sonraki çalışmada otomatik olarak çekilirler."
+      }
+    },
+    "safety": {
+      "title": "Taşıyıcıların güvenli çalışması için araçlar",
+      "passport": {
+        "title": "LogistGo.pro katılımcı pasaportu",
+        "description": "Katılımcının itibarını yansıtır, zamanında ödeme yapıp yapmadığını gösterir ve ödemeyenlerle bağlantı kurmamaya yardımcı olur."
+      },
+      "rating": {
+        "title": "LogistGo.pro katılımcı derecelendirmesi",
+        "description": "Ülkenizden veya bölgenizden en iyi katılımcıları bulmanıza yardımcı olur."
+      },
+      "checks": {
+        "title": "LogistGo.pro kontrolleri",
+        "description": "Gönderenin ödeme gücüne sahip olduğundan, borcu olmadığından ve yasayla sorunu olmadığından emin olmanıza yardımcı olur."
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Analitik ve raporlar",
+        "description": "Çalışmanızı takip edin, gelirinizi analiz edin ve rotaları optimize edin."
+      },
+      "mobile": {
+        "title": "Mobil uygulama",
+        "description": "Mobil uygulama aracılığıyla her yerde LogistGo.pro ile çalışın."
+      }
+    },
+    "free": {
+      "title": "Kayıt olun ve ücretsiz olarak şunları yapabilirsiniz:",
+      "seeContacts": {
+        "title": "Yüklerdeki kişileri görmek",
+        "description": "Türkiye, Rusya, Kazakistan, Polonya, Litvanya'da"
+      },
+      "addTransport": {
+        "title": "Araçlarınızı eklemek",
+        "description": "Ve gönderenlerden teklifler almak"
+      },
+      "joinButton": "Ücretsiz katıl",
+      "joinButtonShort": "Katıl"
+    },
+    "footer": {
+      "description": "Sosyal ağlar ve ihale sitelerinden yük taşıyıcıları ve göndericilerin veri tabanı"
+    }
+  }
+}
+

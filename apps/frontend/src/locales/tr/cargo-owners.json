@@ -1,0 +1,60 @@
+{
+  "cargoOwners": {
+    "hero": {
+      "title": "Hızlı arama",
+      "subtitle": "taşıyıcılar",
+      "description": "LogistGo.pro uluslararası yük taşımacılığı borsasına kaydolun ve ücretsiz yük ekleyip taşıyıcı bulabilirsiniz",
+      "register": "Kayıt ol",
+      "login": "Giriş yap"
+    },
+    "actions": {
+      "addCargo": {
+        "title": "Ücretsiz yük ekle",
+        "description": "Taşıyıcılar ve ekspediturlar görecektir. İyi fiyatlı yükler hızla alınır.",
+        "button": "Ekle"
+      },
+      "findCarrier": {
+        "title": "Taşıyıcı bul",
+        "description": "LogistGo.pro'da her gün çok sayıda araç boştur. Birkaç dakika içinde kendiniz uygun olanı bulun.",
+        "button": "Bul"
+      }
+    },
+    "safety": {
+      "title": "Güvenli çalışma için araçlar",
+      "subtitle": "Yükleri korumaya ve dolandırıcılarla ilişki kurmamaya yardımcı olur",
+      "passport": {
+        "title": "LogistGo.pro katılımcı pasaportu",
+        "description": "katılımcının itibarını ve dürüstlüğünü yansıtır"
+      },
+      "rating": {
+        "title": "LogistGo.pro katılımcı derecelendirmesi",
+        "description": "Belarus, Rusya, Kazakistan, Polonya, Litvanya'daki en iyi taşıyıcıları veya ekspeditörleri bulmanıza olanak tanır"
+      },
+      "checks": {
+        "title": "LogistGo.pro kontrolleri",
+        "description": "taşıyıcının dolandırıcı olmadığından, borçlu olmadığından emin olmanıza yardımcı olur ve diğer riskleri yansıtır"
+      }
+    },
+    "additional": {
+      "analytics": {
+        "title": "Raporlar ve analitik",
+        "description": "Tüm işlemleri takip edebilir, ardından raporlar aracılığıyla analiz edebilirsiniz. Kimin, hangi fiyattan ve nereye yük taşıdığını bileceksiniz. Bu, lojistiği optimize etmenize olanak tanır."
+      },
+      "telegram": {
+        "title": "Telegram bot",
+        "description": "Elinizde bilgisayar olmasına gerek yok.",
+        "link": "Telegram bot",
+        "description2": "her yerde LogistGo.pro ile çalışmanıza olanak tanır."
+      }
+    },
+    "cta": {
+      "title": "LogistGo.pro'da tüm yük taşımacılığını organize edin — taşıyıcı aramadan belge alışverişine kadar",
+      "description": "LogistGo.pro, Belarus, Rusya, Kazakistan, Polonya, Litvanya'dan taşıyıcıları bir araya getirir — düzinelerce web sitesi, mesajlaşma programı ve telefon görüşmesini değiştirir",
+      "button": "Ücretsiz katıl"
+    },
+    "footer": {
+      "description": "Sosyal ağlar ve ihale sitelerinden yük taşıyıcıları ve göndericilerin veri tabanı"
+    }
+  }
+}
+

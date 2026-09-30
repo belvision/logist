@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "title": "Xalqaro",
+    "subtitle": "Yuk tashish birjasi",
+    "brand": "LogistGo.pro",
+    "description": "Belarus, Rossiya, Qozog'iston, Polsha, Litvadan tashuvchilar va yuk jo'natuvchilarga bir-birlarini topishga va tashish to'g'risida kelishishga yordam beradi",
+    "register": "Ro'yxatdan o'tish",
+    "login": "Kirish",
+    "database": "Yuk tashuvchilar va yuk jo'natuvchilar bazasi",
+    "source": "ijtimoiy tarmoqlar va tender saytlaridan"
+  },
+  "stats": {
+    "cargo": {
+      "title": "Yuklar bazasi",
+      "description": "tashuvchilardan javob kutmoqda"
+    },
+    "transport": {
+      "title": "Mashinalar bazasi",
+      "description": "hoziroq tashishga tayyor"
+    },
+    "users": {
+      "title": "Minglab ishtirokchilar",
+      "description": "har kuni LogistGo.pro da ishlaydi"
+    }
+  },
+  "features": {
+    "title": "Nega LogistGo.pro ni tanlaydilar",
+    "subtitle": "Yuk tashish uchun ishonchli platforma",
+    "safe": {
+      "title": "Xavfsiz",
+      "items": [
+        "LogistGo.pro ishtirokchisining pasporti uning obro'sini aks ettiradi va unga ishonish mumkinligini ko'rsatadi",
+        "LogistGo.pro ishtirokchilarining reytingi sizning mamlakatingizda yoki mintaqangizda eng yaxshilarini topishga yordam beradi",
+        "Tashkilotni soliq orqali tekshirish"
+      ]
+    },
+    "convenient": {
+      "title": "Qulay",
+      "items": [
+        "Asosiy funksiyalarga ega Telegram bot",
+        "Loyihada elektron hujjatlarni shakllantirish va ular bilan almashish imkoniyati mavjud",
+        "Ma'lumotlarni qo'lda kiritish kerak emas — ularni bir marta kiritish kifoya"
+      ]
+    },
+    "free": {
+      "title": "Bepul",
+      "items": [
+        "Ro'yxatdan o'tish",
+        "Yuklar va transportni qo'shish",
+        "Yuklar va transportni qidirish",
+        "Tezkor texnik yordam",
+        "Ishtirokchilar uchun telegramdagi guruh"
+      ]
+    }
+  },
+  "countries": {
+    "title": "9 mamlakatda ishlaymiz",
+    "description": "LogistGo.pro Belarus, Rossiya, Qozog'iston, Polsha, Litva, O'zbekiston, Tojikiston, Turkiya va Gruziyadan tashuvchilar va yuk egalarini birlashtiradi",
+    "selectCountry": "O'z mintaqangizda LogistGo.pro ishi haqida ko'proq bilish uchun mamlakatni tanlang",
+    "joinButton": "Xalqaro birjaga qo'shiling"
+  },
+  "howToStart": {
+    "title": "LogistGo.pro da qanday ishlashni boshlash kerak",
+    "steps": {
+      "title": "LogistGo.pro da muvaffaqiyatli ishlashni boshlash uchun 6 qadam",
+      "description": "Tashuvchi yuklar olish uchun LogistGo.pro da qanday ishlashni boshlashi kerak.",
+      "button": "BATAFSIL"
+    },
+    "transport": {
+      "title": "Transportni qanday qo'shish kerak",
+      "description": "Yuk egalaridan takliflar olish uchun avtomobilingizni qanday qo'shish kerak.",
+      "button": "BATAFSIL"
+    },
+    "licenses": {
+      "title": "Litsenziyalar nima uchun kerak",
+      "description": "LogistGo.pro da nima bepul mavjud va nima uchun litsenziya sotib olish kerak.",
+      "button": "BATAFSIL"
+    }
+  },
+  "team": {
+    "title": "Bizning jamoa",
+    "subtitle": "Professional dasturchilar va savdo avtomatlashtiruvchilari",
+    "moreButton": "Batafsil"
+  },
+  "cta": {
+    "title": "LogistGo.pro da ishonchli hamkorlarni toping",
+    "description": "Bizning platformada ishlaydigan minglab ishtirokchilarga qo'shiling",
+    "cargoOwners": "Yuk egalari uchun",
+    "carriers": "Tashuvchilar uchun"
+  },
+  "footer": {
+    "representative": "LogistGo.pro ning Belarusdagi vakili Sergey Gaev",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "offerAgreement": "Oferta shartnomasi",
+    "copyright": "© 2024 LogistGo.pro. Barcha huquqlar himoyalangan."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "cargoOwners": "Yuk egalari",
+    "carriers": "Tashuvchilar",
+    "team": "Jamoa",
+    "apiDocs": "API",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish"
+  }
+}
+

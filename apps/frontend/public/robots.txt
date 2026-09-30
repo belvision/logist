@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://logistgo.pro/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /company/
+Disallow: /profile/
+
+# Allow important pages
+Allow: /
+Allow: /cargo-owners
+Allow: /carriers
+Allow: /carriers/7-steps
+Allow: /carriers/add-transport
+Allow: /carriers/licenses
+Allow: /registry
+Allow: /login
+
+# Allow country landing pages
+Allow: /countries/
+Allow: /countries/belarus
+Allow: /countries/russia
+Allow: /countries/kazakhstan
+Allow: /countries/poland
+Allow: /countries/lithuania
+Allow: /countries/uzbekistan
+Allow: /countries/tajikistan
+Allow: /countries/turkey
+Allow: /countries/georgia
